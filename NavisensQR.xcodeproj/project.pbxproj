@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDFF4DA2551446D00BEC308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFF4D92551446D00BEC308 /* AppDelegate.swift */; };
+		4EDFF4DE2551446D00BEC308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFF4DD2551446D00BEC308 /* ViewController.swift */; };
+		4EDFF4E32551447100BEC308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFF4E22551447100BEC308 /* Assets.xcassets */; };
+		4EDFF4E62551447100BEC308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFF4E42551447100BEC308 /* LaunchScreen.storyboard */; };
+		4EDFF52A2551712900BEC308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFF5282551712900BEC308 /* Main.storyboard */; };
+		4EDFF52D2551714B00BEC308 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFF52C2551714B00BEC308 /* ScannerViewController.swift */; };
+		B56265AEB459B9714DB866E9 /* Pods_NavisensQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A0DEBD2AC9A1DEE9D85438 /* Pods_NavisensQR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47AA9EF29B42881AB2A8323C /* Pods-NavisensQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavisensQR.debug.xcconfig"; path = "Target Support Files/Pods-NavisensQR/Pods-NavisensQR.debug.xcconfig"; sourceTree = "<group>"; };
+		4EDFF4D62551446D00BEC308 /* NavisensQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavisensQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDFF4D92551446D00BEC308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EDFF4DD2551446D00BEC308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDFF4E22551447100BEC308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDFF4E52551447100BEC308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EDFF4E72551447100BEC308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDFF5292551712900BEC308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDFF52C2551714B00BEC308 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		A6A0DEBD2AC9A1DEE9D85438 /* Pods_NavisensQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavisensQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E024212FB34369C4EDF3A80A /* Pods-NavisensQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavisensQR.release.xcconfig"; path = "Target Support Files/Pods-NavisensQR/Pods-NavisensQR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDFF4D32551446D00BEC308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56265AEB459B9714DB866E9 /* Pods_NavisensQR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F1A2CD42A4CB9CC9090E9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47AA9EF29B42881AB2A8323C /* Pods-NavisensQR.debug.xcconfig */,
+				E024212FB34369C4EDF3A80A /* Pods-NavisensQR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4EDFF4CD2551446D00BEC308 = {
+			isa = PBXGroup;
+			children = (
+				4EDFF4D82551446D00BEC308 /* NavisensQR */,
+				4EDFF4D72551446D00BEC308 /* Products */,
+				45F1A2CD42A4CB9CC9090E9A /* Pods */,
+				6D445C19CFAF6F8077C84250 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDFF4D72551446D00BEC308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFF4D62551446D00BEC308 /* NavisensQR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDFF4D82551446D00BEC308 /* NavisensQR */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFF4D92551446D00BEC308 /* AppDelegate.swift */,
+				4EDFF4DD2551446D00BEC308 /* ViewController.swift */,
+				4EDFF4E22551447100BEC308 /* Assets.xcassets */,
+				4EDFF4E42551447100BEC308 /* LaunchScreen.storyboard */,
+				4EDFF52C2551714B00BEC308 /* ScannerViewController.swift */,
+				4EDFF5282551712900BEC308 /* Main.storyboard */,
+				4EDFF4E72551447100BEC308 /* Info.plist */,
+			);
+			path = NavisensQR;
+			sourceTree = "<group>";
+		};
+		6D445C19CFAF6F8077C84250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0DEBD2AC9A1DEE9D85438 /* Pods_NavisensQR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDFF4D52551446D00BEC308 /* NavisensQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDFF4EA2551447100BEC308 /* Build configuration list for PBXNativeTarget "NavisensQR" */;
+			buildPhases = (
+				45123C91C357BFC4B25B804C /* [CP] Check Pods Manifest.lock */,
+				4EDFF4D22551446D00BEC308 /* Sources */,
+				4EDFF4D32551446D00BEC308 /* Frameworks */,
+				4EDFF4D42551446D00BEC308 /* Resources */,
+				16F9204C3F73CC5694C81493 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavisensQR;
+			productName = NavisensQR;
+			productReference = 4EDFF4D62551446D00BEC308 /* NavisensQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDFF4CE2551446D00BEC308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4EDFF4D52551446D00BEC308 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EDFF4D12551446D00BEC308 /* Build configuration list for PBXProject "NavisensQR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDFF4CD2551446D00BEC308;
+			productRefGroup = 4EDFF4D72551446D00BEC308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDFF4D52551446D00BEC308 /* NavisensQR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDFF4D42551446D00BEC308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDFF52A2551712900BEC308 /* Main.storyboard in Resources */,
+				4EDFF4E62551447100BEC308 /* LaunchScreen.storyboard in Resources */,
+				4EDFF4E32551447100BEC308 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16F9204C3F73CC5694C81493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavisensQR/Pods-NavisensQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavisensQR/Pods-NavisensQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavisensQR/Pods-NavisensQR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45123C91C357BFC4B25B804C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavisensQR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDFF4D22551446D00BEC308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDFF4DE2551446D00BEC308 /* ViewController.swift in Sources */,
+				4EDFF4DA2551446D00BEC308 /* AppDelegate.swift in Sources */,
+				4EDFF52D2551714B00BEC308 /* ScannerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EDFF4E42551447100BEC308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDFF4E52551447100BEC308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDFF5282551712900BEC308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDFF5292551712900BEC308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDFF4E82551447100BEC308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EDFF4E92551447100BEC308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDFF4EB2551447100BEC308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AA9EF29B42881AB2A8323C /* Pods-NavisensQR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU8W67TN9K;
+				INFOPLIST_FILE = NavisensQR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = navisens.NavisensQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EDFF4EC2551447100BEC308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E024212FB34369C4EDF3A80A /* Pods-NavisensQR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU8W67TN9K;
+				INFOPLIST_FILE = NavisensQR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = navisens.NavisensQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDFF4D12551446D00BEC308 /* Build configuration list for PBXProject "NavisensQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDFF4E82551447100BEC308 /* Debug */,
+				4EDFF4E92551447100BEC308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDFF4EA2551447100BEC308 /* Build configuration list for PBXNativeTarget "NavisensQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDFF4EB2551447100BEC308 /* Debug */,
+				4EDFF4EC2551447100BEC308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDFF4CE2551446D00BEC308 /* Project object */;
+}
